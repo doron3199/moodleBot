@@ -29,13 +29,17 @@ rename it to 'credentials.json' and put it in the same directory of moodle_to_ca
 
 ## the code itself
 you choose to creat file secrets.py like that:
-moodle_username = '<YOUR MOODLE USERNAME>'
+
+moodle_username = 'YOUR MOODLE USERNAME'
+
 moodle_password = 'YOUR MOODLE PASSWORD'
-mail_to = '<YOUR EMAIL>'
-mail_from = '<YOUR EMAIL>'
+
+mail_to = 'YOUR EMAIL'
+
+mail_from = 'YOUR EMAIL'
 
 if you don't want to create this file, you need to search in the code those variables and swap them with your secrets
 
-##run the code
+## run the code
 in the first time run it with a regularly to check for a problems, it there are non, run it with pythonw so it will run in the background.  
 there may be a problem with the background process
